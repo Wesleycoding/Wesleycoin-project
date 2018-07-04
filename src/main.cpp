@@ -1090,7 +1090,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     int64 nSubsidy = 500 * COIN;
 
     // Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
-    nSubsidy >>= (nHeight / 10000000); // Wesleycoin: 840k blocks in ~4 years
+    nSubsidy >>= (nHeight / 10000000); // Wesleycoin: 10 million blocks in ~17.9 years
 
     return nSubsidy + nFees;
 }
@@ -2801,7 +2801,7 @@ bool InitBlockIndex() {
             block.nNonce   = 386034089;
         }
 
-if (false && block.GetHash() != hashGenesisBlock)
+if (true && block.GetHash() != hashGenesisBlock)
         {
             printf("Searching for genesis block...\n");
             // This will figure out a valid hash and Nonce if you're
