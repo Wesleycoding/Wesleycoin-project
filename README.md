@@ -1,25 +1,22 @@
 Wesleycoin integration/staging tree
 ================================
 
-http://www.wesleycoin.org
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Wesleycoin Developers
+Copyright (c) 2011-2014 Litecoin Developers
+Copyright (c) 2018-2018 Wesleycoin Developer
 
 What is Wesleycoin?
 ----------------
 
 Wesleycoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 1.5 minute block targets
+ - subsidy halves in 10 million blocks (~28.5 years)
+ - ~350 million total coins
+ - 500 coins per block
 
 For more information, as well as an immediately useable, binary version of
-the Wesleycoin client sofware, see http://www.wesleycoin.org.
+the Wesleycoin client sofware, see tbd.
 
 License
 -------
