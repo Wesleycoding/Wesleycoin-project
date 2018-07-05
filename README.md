@@ -69,3 +69,28 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     ./wesleycoin-qt_test
 
 # wesleycoin
+
+Issues
+------
+
+While makeing Wesleycoind or while makeing Wesleycoin-qt a major problem may occur:
+
+1) 
+
+Building LevelDB ...
+make[1]: Entering directory '/home/wesleycoin/Desktop/Wesleycoin-project/src/leveldb'
+/bin/sh: 1: ./build_detect_platform: Permission denied
+Makefile:18: build_config.mk: No such file or directory
+make[1]: *** No rule to make target 'build_config.mk'.  Stop.
+make[1]: Leaving directory '/home/wesleycoin/Desktop/Wesleycoin-project/src/leveldb'
+makefile.unix:167: recipe for target 'leveldb/libleveldb.a' failed
+make: *** [leveldb/libleveldb.a] Error 2
+
+Solution:
+
+cd src/leveldb or cd leveldb
+chmod 755 *
+cd ..
+and compile again
+
+Link to where this was found: https://github.com/antibitcoin/AntiBitcoin-source/issues/2
