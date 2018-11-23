@@ -12,8 +12,8 @@ What is Wesleycoin?
 Wesleycoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 1 minute block targets
  - subsidy halves in 10 million blocks (~17.9 years)
- - ~937500000 total coins
- - 500 coins per block
+ - ~93750000 total coins
+ - 50 coins per block
 
 For more information, as well as an immediately useable, binary version of
 the Wesleycoin client sofware, see tbd.
