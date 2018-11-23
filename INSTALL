@@ -1,0 +1,9 @@
+Building Wesleycoin
+
+See doc/readme-qt.rst for instructions on building Wesleycoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Wesleycoin.
+
+See doc/build-*.txt for instructions on building wesleycoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Wesleycoin.
